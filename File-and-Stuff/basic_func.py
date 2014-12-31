@@ -3,6 +3,7 @@ def add_something():
     f=open(file_name,'a')
     to_be_add=input("what do you want to add? ")
     f.write(to_be_add)
+    f.write('\n')
     f.close()
 
 def new_file():
